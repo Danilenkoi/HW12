@@ -1,13 +1,14 @@
 import javax.xml.namespace.QName;
 
 public class Book {
-
+    private Author name;
     private int year;
     private String title;
 
     public Book(int year, String title) {
         this.year = year;
         this.title = title;
+
     }
     public int getYear() {
         return this.year;

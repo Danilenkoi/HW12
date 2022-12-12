@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-
-        Book sKing = new Book(2019, "The Institute");
+        
         Author king = new Author("S. King");
-        System.out.println("Автор - " + king.getName());
+        Book sKing = new Book(2019, "The Institute");
+        System.out.println("Автор - " + king.name);
         System.out.println("Год издания - " + sKing.getYear());
         System.out.println("Название - " + sKing.getTitle());
         sKing.setYear(2020);
